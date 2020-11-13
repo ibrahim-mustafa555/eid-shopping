@@ -1,0 +1,340 @@
+<!DOCTYPE html >
+<html dir="rtl" lang="ar">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Title Website -->
+<title>أغنام</title>
+
+<!-- Bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+
+<!-- Fontawesome -->
+<link rel="stylesheet" href="css/all.min.css">
+
+<!-- Owl-carousel  -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+
+<!-- My css style -->
+<link rel="icon" href="img/favicon.ico">
+<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <div class="d-flex" id="wrapper">
+        <div class="height70"></div>
+
+        <!-- =========================================================================================== -->
+        <!-- Start Main Content page -->
+        <div id="mainContent-wraper">
+            <!-- Start Header -->
+            <header class="fixed-top">
+                <div class="header-main py-3">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col text-right">
+                                <a href="index.html">
+                                    <div class="menu d-inline" id=""> <i class="fas fa-long-arrow-alt-right"></i>
+                                    </div>
+                                </a>
+                                <img class="img-fluid mr-2" src="img/logo-big.png" alt="">
+                            </div>
+                            <div class="col-4 text-center">
+                                <h3> انهاء الطلب</h3>
+                            </div>
+                            <div class="col text-left icons">
+                                <a href="#"><img ml-2 class="img-fluid" src="img/icon-translation.png" alt=""></a>
+                                <a href="shoppingcard.html"><img class="mr-3 img-fluid" src="img/icon-shopping-cart.png" alt=""><span class="item-no" id="cart-number">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+            </header>
+            <div class="clearfix"></div>
+            <!-- End Header -->
+            <!-- =========================================================================================== -->
+            <div class="height20"></div>
+
+
+            <!--====================================== =====================================-->
+
+            <section class="end-order text-right p-2 mt-sm-3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 py-4 mb-3 bg-white">
+                            <form action="">
+
+                                <div class="form-group">
+                                    <label for="name">الأسم </label>
+                                    <input type="text" name="" id="name" class="form-control" placeholder=" اسم المستخدم">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email"> البريد الالكتروني</label>
+                                    <input type="email" name="" id="email" class="form-control" placeholder="mail@email.com">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone">رقم الجوال</label>
+                                    <div class="input-group">
+                                        <input type="text" name="" id="phone" class="form-control" placeholder="5075632">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text text-left">+966</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-12 py-3 bg-white mb-3">
+
+                            <div class="title d-flex justify-content-between align-items-center">
+                                <h6 class="after position-relative py-3"> عنوان التوصيل </h6>
+                                <h6 class="p-2" data-toggle="collapse" href="#collapseAddress" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-angle-double-down"></i></h6>
+                            </div>
+
+                            <div class="collapse" id="collapseAddress">
+                                <form action="">
+
+                                    <div class="form-group">
+                                        <label for="pass">المدينة</label>
+                                        <select class="custom-select">
+                                        <option selected>الدمام</option>
+                                        <option value="جدة">جده</option>
+                                        <option value="الرياض">الرياض</option>
+                                    </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="name">الحي</label>
+                                        <input type="text" name="" id="name" class="form-control" placeholder="  الحي">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="name">تحديد الموقع على الخريطة</label>
+                                        <div class="input-group ">
+                                            <input type="text" class="form-control" id="">
+                                            <div class="input-group-prepend last">
+                                                <div class="input-group-text last"><i class="fas fa-map-marker-alt"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="form-group">
+                                        <label for="name">تفاصيل العنوان</label>
+                                        <textarea class="form-control" id="" rows="2" placeholder="تفاصيل العنوان"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 py-3 bg-white mb-3">
+
+                            <div class="title d-flex justify-content-between align-items-center">
+                                <h6 class="after position-relative py-3"> طريقة الدفع </h6>
+                                <h6 class="p-2" data-toggle="collapse" href="#collapsePay" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-angle-double-down"></i></h6>
+                            </div>
+
+                            <div class="collapse" id="collapsePay">
+                                <div class="order1 p-3 bg-light mb-3">
+                                    <input class="ml-2" type="radio" name="pay" id="">
+                                    <span>الدفع عند الاستلام كاش</span>
+                                </div>
+
+                                <div class="order1 p-3 bg-light mb-3">
+                                    <input class="ml-2" type="radio" name="pay" id="" checked>
+                                    <span>الدفع عند الاستلام بطاقة مدي</span>
+                                </div>
+
+                                <p class="text-center check">سوف يحضر المندوب ماكينة صرف بطاقات مدي</p>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-12 py-3 bg-white mb-3">
+
+                            <div class="title d-flex justify-content-between align-items-center">
+                                <h6 class="after position-relative py-3"> ملخص الطلب </h6>
+                                <h6 class="p-2" data-toggle="collapse" href="#collapseFinal" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-angle-double-down"></i></h6>
+                            </div>
+
+                            <div class="collapse" id="collapseFinal">
+                                <table class="top table  table-borderless">
+                                    <tr>
+                                        <td>
+                                            غنم نعيمي كامل
+                                        </td>
+                                        <td>
+                                            <span class="bg-light p-1 ">
+                                                <span><bdi>SR</bdi> </span>
+                                            <span class="" id="">
+                                                600
+                                            </span>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            1 قطعه
+                                        </td>
+                                        <td>
+                                            <span class="bg-light p-1 ">
+                                                <span><bdi>SR</bdi> </span>
+                                            <span class="" id="">
+                                                710
+                                            </span>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>تقطيع حضرمي</td>
+                                        <td>
+                                            <span class="bg-light p-1 ">
+                                                <span><bdi>SR</bdi> </span>
+                                            <span class="" id="">
+                                                110
+                                            </span>
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                                <div class="border-top py-2">
+                                    <div class=" float-right ">
+                                        <p class="p-1">مجموع الطلب</p>
+                                        <p class="p-1">الضريبة <bdi>VAT % 15</bdi></p>
+                                        <p class="p-1">كوبون الخصم
+                                            <br> <span class="text-secondary"><bdi>%20 agnam</bdi></span></p>
+                                    </div>
+                                    <div class="float-left text-left">
+                                        <p class="bg-light p-1 ">
+                                            <span><bdi>SR</bdi> </span>
+                                            <span class="" id="">
+                                                708
+                                            </span>
+                                        </p>
+                                        <p class="bg-light p-1">
+                                            <span><bdi>SR</bdi> </span>
+                                            <span class="" id="">
+                                                105
+                                            </span>
+                                        </p>
+                                        <p class="bg-light p-1">
+                                            <span><bdi>SR</bdi> </span>
+                                            <span class="" id="">
+                                                125
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="name">الملاحظات </label>
+                                    <textarea class="form-control" id="" rows="3" placeholder=" هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم"></textarea>
+                                </div>
+
+                                <div class="total-taxs d-flex mx-auto justify-content-between text-white">
+                                    <div class="infoo">
+                                        <h5>الإجمالي</h5>
+                                    </div>
+                                    <div class="prices">
+                                        <h5><bdi>SR</bdi> 965 </h5>
+                                    </div>
+
+
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-12">
+                            <div class="cartbtn text-center">
+                                <a href="finalorder.html" type="submit" class="btn w-75">   إنهاء الشراء </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <div class="height70"></div>
+            <!--=============================================================================-->
+
+
+            <!-- Footer -->
+            <footer class="fixed-bottom text-center">
+                <div class="container">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-3 ">
+                            <div class="icon-footer ">
+                                <a href="index.html">
+                                    <img class="img-fluid" src="img/icon-home.png" alt="">
+                                    <h6 class="py-1">الرئيسية</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="icon-footer">
+                                <a href="order.html">
+                                    <img class="img-fluid" src="img/icon-order.png" alt="">
+                                    <h6 class="py-1">طلباتي</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="icon-footer">
+                                <a href="offers.html">
+                                    <img class="img-fluid" src="img/icon-discount.png" alt="">
+                                    <h6 class="py-1">العروض</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="icon-footer">
+                                <a href="settings.html" class="active d-inline-block px-1">
+                                    <img class="img-fluid" src="img/icon-user.png" alt="">
+                                    <h6 class="py-1">حسابي</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--  Footer -->
+            <!-- ============================================================================================ -->
+
+
+            <!--        Start Scroll To-Top  -->
+            <!-- <div id="scroll-top">
+                <i class="fas fa-angle-up "></i>
+            </div> -->
+
+            <!--        End Scroll To-Top  -->
+
+            </div>
+            <!-- End Main Content page -->
+
+
+            <!-- =========================================================================================== -->
+
+
+            <!--Start Dark Overlay element -->
+            <div class="overlay-page"></div>
+            <!--End Dark Overlay element -->
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
